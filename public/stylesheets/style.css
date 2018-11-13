@@ -1,0 +1,25 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/idev.png");
+  background-position: center top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+#main-container {
+  height: 80vh;
+}
+
+#nav {
+  border-left-color: gray;
+  border-left-width: 5px;
+}
+
+#x {
+  font-size: 30px;
+}
+
+a {
+  color: #00B7FF;
+}

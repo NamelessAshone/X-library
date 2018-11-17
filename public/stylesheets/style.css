@@ -1,5 +1,10 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+#main-container {
+  /*height: 80vh;*/
   background-image: url("../images/idev.png");
   background-position: center top;
   background-size: auto;
@@ -7,13 +12,19 @@ body {
   background-attachment: scroll;
 }
 
-#main-container {
-  height: 80vh;
+#footer-container {
+  border-top: 1px solid rgba(0,0,0,.22);
+  background-color: #fff;
+}
+
+.sep20 {
+  height: 20px;
 }
 
 #nav {
-  border-left-color: gray;
+  border-left-color: #fff;
   border-left-width: 5px;
+  margin-bottom: 0px;
 }
 
 #x {
@@ -23,3 +34,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+.bookbox {
+  height: 100%;
+}
+
+/*
+  for test
+*/

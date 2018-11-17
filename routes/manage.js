@@ -4,10 +4,10 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
   /**
-   * TODO on next release: add users router here.
-   *
-   */
-  res.send('respond with a resource');
+     * A router to handle manege page. The URL of this page just appear in layout.jade when
+     * a request come from 127.0.0.1.
+     */
+
 });
 
 module.exports = router;

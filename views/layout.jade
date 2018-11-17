@@ -27,10 +27,14 @@ html
           button(type="submit", class='btn btn-default') Submit
     
     // content
-    #main-container.container
+    #main-container.container-fluid
+      .sep20
       block content
-    #footer-container.container.row
-      footer.page-footer.font-small.grey
-      // copyright
-      .footer-copyright.text-center @2018 Copyright:  
-        a(href='#') X-library
+      .sep20
+
+    #footer-container.container-fluid
+      .row  
+        footer.page-footer
+        // copyright
+        .footer-copyright.text-center Copyright @ 2018  
+          a(href='#') X-library

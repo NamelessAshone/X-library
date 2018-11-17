@@ -1,5 +1,7 @@
 const Book = require('../models/book');
 
+
+// TODO: implement all controller here.
 exports.index = (req, res) => {
   res.send('NOT IMPLEMENTED: site home page');
 };

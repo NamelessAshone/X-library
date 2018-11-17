@@ -1,2 +1,4 @@
-./models/models.js:1:// TODO: add code to define models here.
+./controllers/bookController.js:4:// TODO: implement all controller here.
+./routes/users.js:7:   * TODO on next release: add users router here.
+./views/books.jade:3:// TODO: add more view in ./views
 ./db.js:1:// TODO: add codes to connect db here.

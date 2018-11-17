@@ -13,7 +13,7 @@ router.get('/', bookController.index);
 // GET all books
 router.get('/books', bookController.books);
 
-// GET one book by id
+// GET show one book by id
 router.get('/book/:id', bookController.book_detail);
 
 // GET create one book
